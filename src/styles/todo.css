@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d1d9d9;
+}
+
+.container {
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+input[type|="text"] {
+  width: 300px;
+  font-size: 1.1rem;
+  border-radius: 5px 10px;
+  padding: 5px 8px;
+  transition: all 0.3s ease-in;
+  border: none;
+  margin-bottom: 3px;
+}
+
+input[type|="email"] {
+  width: 300px;
+  font-size: 1.1rem;
+  border-radius: 5px 10px;
+  padding: 5px 8px;
+  transition: all 0.3s ease-in;
+  border: none;
+  margin-bottom: 3px;
+}
+
+input[type|="text"]:focus {
+  transition: all 0.3s ease-in;
+  width: 40%;
+  border: none;
+}
+button.add {
+  font-size: 1.1rem;
+  border-radius: 5px 10px;
+  padding: 5px 8px;
+  border: none;
+  height: 35px;
+  width: 100px;
+  transition: all 0.4s ease-in;
+  margin-bottom: 50px;
+}
+button.add:hover {
+  transition: all 0.45s ease-in;
+  width: 85px;
+  letter-spacing: 2px;
+  color: #ff0a0a;
+  background: #000000;
+}
+
+h1 {
+  width: 70%;
+  margin: 15px auto;
+  padding: 10px 15px;
+  text-align: start;
+  border: none;
+  border-radius: 0.5rem;
+  background: #e4efe7;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.4s ease-out;
+  letter-spacing: 1px;
+}
+h1:hover {
+  transition: 0.4s ease-out;
+  box-shadow: 2px 2px 3px 1px #6c7179;
+}
+
+.condition {
+  font-size: 1.05rem;
+  border-radius: 0.5rem;
+  padding: 5px 8px;
+  width: 100px;
+  border: none;
+  transition: all 0.4s ease-in;
+  margin: 0;
+  background: hsl(0, 4%, 75%);
+}
+.condition:hover {
+  transition: all 0.4s ease-in;
+  border-radius: 0.3rem;
+  color: #ff0a0a;
+  background: #000000;
+  cursor: pointer;
+}
+.remove {
+  font-size: 1.05rem;
+  padding: 5px 8px;
+  border-radius: 0.5rem;
+  /* padding: 5px 8px; */
+  width: 70px;
+  border: none;
+  transition: all 0.4s ease-in;
+  margin: 0;
+  margin-left: 5px;
+  background: hsl(0, 4%, 75%);
+}
+
+.remove:hover {
+  transition: all 0.4s ease-in;
+  border-radius: 0.3rem;
+  color: #ff0a0a;
+  background: #000000;
+  cursor: pointer;
+}
